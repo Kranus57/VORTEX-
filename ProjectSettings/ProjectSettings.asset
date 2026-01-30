@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 9d775806ebe80014a9889f92b9635cb6
+  productGUID: c72720ec5c2b58e498f4ca7600a9604f
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: spaceshooter
+  productName: "VORTEX-\xD8"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -696,14 +696,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: spaceshooter
+  metroPackageName: "VORTEX-\xD8"
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: spaceshooter
+  metroApplicationDescription: "VORTEX-\xD8"
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -774,10 +774,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: bbf92bab-f559-4348-bf36-6d9da2b8ebed
+  cloudProjectId: 69d1586e-27a3-4ad1-a174-e28ba514e66e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: spaceshooter
+  projectName: "VORTEX-\xD8"
   organizationId: kaginkarsampada
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
