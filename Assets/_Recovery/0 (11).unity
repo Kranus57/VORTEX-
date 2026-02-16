@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00154b12898ea974c83b74c1f495b80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxScroll
-  speed: 2
+  speed: 1.35
   screenEdgeLeft: -15
   screenEdgeRight: 15
 --- !u!1 &1412217921
@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00154b12898ea974c83b74c1f495b80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxScroll
-  speed: 2
+  speed: 3
   screenEdgeLeft: -15
   screenEdgeRight: 15
 --- !u!1 &2086068609

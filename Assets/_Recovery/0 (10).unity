@@ -283,11 +283,11 @@ Transform:
   m_GameObject: {fileID: 481895820}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.067415, y: 3.6872163, z: -7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.411, y: 0.37, z: -7}
+  m_LocalScale: {x: 0.04129149, y: 0.097692184, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1816042752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &481895822
 SpriteRenderer:
@@ -360,9 +360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00154b12898ea974c83b74c1f495b80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxScroll
-  speed: 2
-  screenEdgeLeft: -15
-  screenEdgeRight: 15
+  parallaxMultiplier: 0.5
+  baseSpeed: 0.3
 --- !u!1 &1412217921
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,11 +389,11 @@ Transform:
   m_GameObject: {fileID: 1412217921}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5043194, y: 1.1383941, z: -5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.14, y: 0.121, z: -5}
+  m_LocalScale: {x: 0.04129149, y: 0.097692184, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1816042752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1412217923
 SpriteRenderer:
@@ -467,9 +466,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00154b12898ea974c83b74c1f495b80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxScroll
-  speed: 2
-  screenEdgeLeft: -15
-  screenEdgeRight: 15
+  parallaxMultiplier: 0.5
+  baseSpeed: 0.1
 --- !u!1 &1581707496
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,11 +495,11 @@ Transform:
   m_GameObject: {fileID: 1581707496}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.1415305, y: -1.0521597, z: -5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.217, y: -0.093, z: -5}
+  m_LocalScale: {x: 0.04129149, y: 0.097692184, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1816042752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1581707498
 SpriteRenderer:
@@ -574,9 +572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00154b12898ea974c83b74c1f495b80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxScroll
-  speed: 2
-  screenEdgeLeft: -15
-  screenEdgeRight: 15
+  parallaxMultiplier: 0.5
+  baseSpeed: 0.2
 --- !u!1 &1601862602
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +848,11 @@ Transform:
   m_LocalPosition: {x: 0.113790035, y: -0.10019, z: 0}
   m_LocalScale: {x: 24.218067, y: 10.236233, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 481895821}
+  - {fileID: 1412217922}
+  - {fileID: 1825808509}
+  - {fileID: 1581707497}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1816042755
@@ -926,11 +927,11 @@ Transform:
   m_GameObject: {fileID: 1825808508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.568935, y: -2.8230278, z: -7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.473, y: -0.266, z: -7}
+  m_LocalScale: {x: 0.04129149, y: 0.097692184, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1816042752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1825808510
 SpriteRenderer:
@@ -1003,9 +1004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00154b12898ea974c83b74c1f495b80c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxScroll
-  speed: 2
-  screenEdgeLeft: -15
-  screenEdgeRight: 15
+  parallaxMultiplier: 0.5
+  baseSpeed: 0.3
 --- !u!1 &2086068609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1045,3 @@ SceneRoots:
   - {fileID: 2086068610}
   - {fileID: 1816042752}
   - {fileID: 1601862603}
-  - {fileID: 481895821}
-  - {fileID: 1412217922}
-  - {fileID: 1825808509}
-  - {fileID: 1581707497}
